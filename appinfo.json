@@ -1,0 +1,13 @@
+{
+  "id": "nl.kees.iptvplayer",
+  "version": "1.0.35",
+  "vendor": "Kees",
+  "type": "web",
+  "main": "index.html",
+  "title": "IPTV Player",
+  "icon": "icon.png",
+  "largeIcon": "largeIcon.png",
+  "bgColor": "#000000",
+  "resolution": "1920x1080",
+  "disallowScrollingInMainWindow": true
+}

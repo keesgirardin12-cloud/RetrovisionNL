@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<title>IPTV Player</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<video id="video" autoplay></video>
+<div id="osd"></div>
+
+<div id="panel">
+  <div id="groups"></div>
+  <div id="list"></div>
+  <div id="hint">▲▼ kanaal · ◄► groep · OK speel · ROOD ◆ favoriet · GROEN zoek · BLAUW URL · GEEL beeldformaat · 2-9 letter · BACK sluit</div>
+</div>
+
+<div id="search" class="hidden">
+  <h1>Zoeken</h1>
+  <input id="q" type="text" placeholder="Zoek kanaal op naam">
+  <button id="qgo">Zoek</button>
+  <button id="qcancel">Annuleren</button>
+</div>
+
+<div id="setup" class="hidden">
+  <h1>Eigen lijst instellen</h1>
+  <p>Voer de M3U-URL van je pc in:</p>
+  <input id="url" type="text" placeholder="http://.../playlist.m3u">
+  <button id="save">Laden</button>
+  <button id="cancel">Annuleren</button>
+  <div id="msg"></div>
+</div>
+
+<script src="hls.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
